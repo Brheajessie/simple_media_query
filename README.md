@@ -1,2 +1,3 @@
-# simple_media_query
-a simple media query
+# Simple-Media-Query
+
+https://april6804.github.io/Simple-Media-Query/
