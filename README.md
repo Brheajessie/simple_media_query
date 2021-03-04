@@ -1,2 +1,2 @@
-# Simple-Media-Query
+# Simple_Media_Query
 
