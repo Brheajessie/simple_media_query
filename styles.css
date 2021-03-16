@@ -11,12 +11,14 @@ main{
 body{
     padding: 0;
     margin: 0;
+    font-family: helvetica, sans-serif;
 }
 
 nav{
   background: lightgrey;
 /*  height: 50px; */
   text-align: center;
+  font-family: georgia,serif;
 }
 
 nav a{
@@ -61,11 +63,12 @@ img{
             width:30%;
             display: inline;
         }
-        .vertical{
-          width: 10%;
-        }
 
-@media screen and (min-width: 1300px) {
+        .flexItem{
+          height: 400px;
+        }
+}
+@media screen and (min-width: 1600px) {
         .vertical{
           width: 30%;
         }
