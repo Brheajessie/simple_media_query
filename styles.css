@@ -10,12 +10,15 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 60%;
+    max-width: 300px;
 
 
 }
 
 nav{
-    background: grey;
+    /* New Color for the Nav */
+    background: rgb(255, 255, 255, 0.3);
+    /* background: grey; */
     /* height: 60px; */
     text-align: center;
     font-family: Georgia, serif;
@@ -71,11 +74,13 @@ main{
     flex-wrap: wrap;
     /* flex-direction: row; */
 }
+
 .flexItem{
     flex-basis: 300px;
-    flex-grow: 2;
-    margin: 2px;
-    background: rgbs(181, 181, 181, 0.5);
+    flex-grow: 1;
+    margin: 2px 20px 2px 20px;
+    background: rgb(255, 255, 255,
+        0.5);
     padding:30px;
 }
 
@@ -84,8 +89,21 @@ img{
     display: block;
     margin:1% auto;
     border: 0;
+}
+
+footer{
+    background: rgba(0,0,0,0.8);
+    padding: 40px;
+}
+
+ footer p{
+    color: white;
+}
+
+footer a {
 
 }
+
 /* medium size below */
 @media screen and (min-width: 700px) {
         .logo{
@@ -95,6 +113,14 @@ img{
             display: inline;
             width:30%;
         }
+
+        .flexItem{
+            margin: 20px;
+        }
+        .flexItem:first-child{
+            margin-right: 0;
+        }
+
 }
 /* large screen styles below */
 @media screen and (min-width: 1300px) {
